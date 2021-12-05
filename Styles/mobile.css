@@ -1,6 +1,12 @@
 header {
   background-color: #523e0d;
 }
+header #Logo{
+  display:block
+}
+header #Burger{
+  padding-left: 1%;
+}
 header nav ul {
   display: flex;
   flex-direction: column;
@@ -11,4 +17,11 @@ header nav ul li a {
 }
 header nav ul li a visited {
   color: #f2a903;
+}
+.sliderContainer {
+  display: none;
+}
+footer {
+  background-color: #523e0d;
+  color: #ebe9e4;
 }
