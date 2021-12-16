@@ -23,7 +23,7 @@ header nav ul li a {
 header nav ul li a:visited {
   color: #f2a903;
 }
-.sliderContainer {
+.sliderOuterContainer {
   display: none;
 }
 footer {
