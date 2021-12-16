@@ -1,6 +1,9 @@
 #staticImages {
   display: none;
 }
+.sliderOuterContainer {
+  text-align: center;
+}
 .sliderContainer {
   display: block;
 }
