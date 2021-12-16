@@ -4,3 +4,9 @@
 .sliderContainer {
   display: block;
 }
+#Burger {
+  display: none;
+}
+header nav {
+  display: block;
+}

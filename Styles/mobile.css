@@ -8,6 +8,9 @@ header #Logo {
 header #Burger {
   padding-left: 1%;
 }
+header nav {
+  display: none;
+}
 header nav ul {
   display: flex;
   flex-direction: column;
@@ -27,5 +30,5 @@ footer {
   background-color: #523e0d;
   color: #ebe9e4;
   padding-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 10%;
 }
