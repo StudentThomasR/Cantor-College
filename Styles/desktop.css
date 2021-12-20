@@ -1,3 +1,7 @@
+body{
+  margin:0px;
+  text-align:left;
+}
 #staticImages {
   display: none;
 }
@@ -9,23 +13,74 @@
   display: none;
 }
 header nav {
-  display: block;
+ display: block;
 }
+header nav ul{
+  text-align: center;  
+}
+header #Logo {
+text-align: center;
+}
+h1
+{
+padding-left: 5%;
+}
+h2{
+  padding-left: 5%;
+}
+h3{
+  padding-left: 5%;
+}
+h4{
+  padding-left: 5%;
+}
+h5{
+  padding-left: 5%;
+}
+h6{
+  padding-left: 5%;
+}
+p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+img{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+ul {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
 #aboutContainer {
   display: flex;
   flex-direction: row;
   text-align: left;
+padding-left: 5%;
+padding-right: 5%;
 }
 #aboutContainer p{
   padding-left: 1%;
+}
+
+#aboutContainer img{
+  padding-left: 0%;
+  padding-right: 0%;
 }
 #facilitiesContainer {
   display: flex;
   flex-direction: row;
   text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 #facilitiesContainer p{
   padding-left: 1%;
+}
+#facilitiesContainer img{
+  padding-left: 0%;
+  padding-right: 0%;
 }
 Footer{
  display: flex; 
@@ -34,3 +89,4 @@ Footer{
 Footer p{
 text-align:left ;
 }
+
