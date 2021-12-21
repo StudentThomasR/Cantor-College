@@ -12,15 +12,28 @@ body{
 #Burger {
   display: none;
 }
+header{
+text-align: center;
+}
 header nav {
- display: block;
+ display:inline;
 }
 header nav ul{
+  display: inline;
+}
+header nav ul li {
+  display: inline;
+}
+header #Logo {
+  display:block ;
+  
+}
+/*header nav ul{
   text-align: center;  
 }
 header #Logo {
 text-align: center;
-}
+}*/
 h1
 {
 padding-left: 5%;
@@ -49,6 +62,10 @@ img{
   padding-right: 5%;
 }
 ul {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+ol {
   padding-right: 5%;
   padding-left: 5%;
 }
@@ -82,11 +99,3 @@ padding-right: 5%;
   padding-left: 0%;
   padding-right: 0%;
 }
-Footer{
- display: flex; 
- flex-direction: row;
-}
-Footer p{
-text-align:left ;
-}
-

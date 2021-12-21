@@ -1,9 +1,14 @@
 header {
   background-color: #523e0d;
   padding-bottom: 10px;
+  justify-content: center;
 }
 header #Logo {
   display: block;
+  
+}
+header #Logo img {
+  padding-left: 0%;
 }
 header #Burger {
   padding-left: 1%;
@@ -40,12 +45,22 @@ ul li{
   padding-left: 1%;
   padding-right: 1%;
 }
+ol li{
+  padding-left: 1%;
+  padding-right: 1%;
+}
 .sliderOuterContainer {
   display: none;
 }
 footer {
   background-color: #523e0d;
   color: #ebe9e4;
-  padding-top: 10px;
-  padding-bottom: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
+
+footer p{
+  text-align: center;
+  
+}
+
